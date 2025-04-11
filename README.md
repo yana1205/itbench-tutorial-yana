@@ -19,7 +19,7 @@ cd ITBench-SRE-Agent
 
 5. Build the image.
 ```bash
-docker build -t itbench-sre-agent .
+docker build -t itbench-sre-agent --no-cache .
 ```
 
 6. Run the image in interactive mode:
