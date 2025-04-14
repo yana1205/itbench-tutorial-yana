@@ -1,0 +1,3 @@
+[submodule "ITBench-SRE-Agent"]
+	path = ITBench-SRE-Agent
+	url = https://github.com/IBM/ITBench-SRE-Agent/
