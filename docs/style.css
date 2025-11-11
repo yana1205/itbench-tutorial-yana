@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: linear-gradient(180deg, #f9f9f9 0%, #eef1f6 100%);
+  color: #222;
+  text-align: center;
+  padding: 2em 1em;
+  line-height: 1.7;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #111;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+p, li {
+  font-size: 1em;
+  max-width: 650px;
+  margin: 0.5em auto;
+}
+
+ol, ul {
+  text-align: left;
+  max-width: 600px;
+  margin: 1em auto;
+  padding-left: 1.5em;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: white;
+  border-radius: 16px;
+  padding: 1.8em 1.2em;
+  margin: 1.5em auto;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.button {
+  display: inline-block;
+  background: #0366d6;
+  color: white;
+  padding: 0.8em 1.6em;
+  margin: 0.6em;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.1s ease;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.button:hover {
+  background: #024ea4;
+  transform: translateY(-2px);
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.2em; }
+  .button {
+    display: block;
+    width: 80%;
+    margin: 0.5em auto;
+  }
+}
